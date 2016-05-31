@@ -1,0 +1,161 @@
+
+subhashinia@CT2-TRNG7-17 ~
+$ cd D:
+
+subhashinia@CT2-TRNG7-17 /d
+$ cd Cyb
+CybBookNet/       CybageNET/        CybageNetUpdated/ cybage/
+CybNetJsp/        CybageNetJ/       CyberNet/
+
+subhashinia@CT2-TRNG7-17 /d
+$ cd CybNetJsp/
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp
+$ git init
+Initialized empty Git repository in d:/CybNetJsp/.git/
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git remote add origin https://github.com/hemantbh/Cybooknet.git
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git add .
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/.jsdtscope
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.wst.common.component
+        new file:   .settings/org.eclipse.wst.common.project.facet.core.xml
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.container
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.name
+        new file:   WebContent/META-INF/MANIFEST.MF
+        new file:   WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar
+        new file:   WebContent/WEB-INF/lib/servlet-api.jar
+        new file:   WebContent/WEB-INF/web.xml
+        new file:   WebContent/addReview.jsp
+        new file:   WebContent/displayAll.jsp
+        new file:   WebContent/displaySelectedBooks.jsp
+        new file:   WebContent/index.jsp
+        new file:   WebContent/insert.jsp
+        new file:   WebContent/insertBookform.jsp
+        new file:   WebContent/login.jsp
+        new file:   WebContent/remove.jsp
+        new file:   WebContent/removeform.jsp
+        new file:   WebContent/review.jsp
+        new file:   WebContent/search.jsp
+        new file:   WebContent/searchform.jsp
+        new file:   WebContent/usermenu.jsp
+        new file:   build/classes/com/BookBean.class
+        new file:   build/classes/com/BookDao.class
+        new file:   build/classes/com/Connect.class
+        new file:   build/classes/com/LoginBean.class
+        new file:   build/classes/com/LoginDao.class
+        new file:   build/classes/dto/Book.class
+        new file:   build/classes/dto/Login.class
+        new file:   src/com/BookBean.java
+        new file:   src/com/BookDao.java
+        new file:   src/com/Connect.java
+        new file:   src/com/LoginBean.java
+        new file:   src/com/LoginDao.java
+        new file:   src/dto/Book.java
+        new file:   src/dto/Login.java
+
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git commit -m "My First Commit"
+[master (root-commit) 1f90004] My First Commit
+ Committer: unknown <subhashinia@CT2-TRNG7-17.cybage.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 39 files changed, 953 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/.jsdtscope
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.wst.common.component
+ create mode 100644 .settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.container
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.name
+ create mode 100644 WebContent/META-INF/MANIFEST.MF
+ create mode 100644 WebContent/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar
+ create mode 100644 WebContent/WEB-INF/lib/servlet-api.jar
+ create mode 100644 WebContent/WEB-INF/web.xml
+ create mode 100644 WebContent/addReview.jsp
+ create mode 100644 WebContent/displayAll.jsp
+ create mode 100644 WebContent/displaySelectedBooks.jsp
+ create mode 100644 WebContent/index.jsp
+ create mode 100644 WebContent/insert.jsp
+ create mode 100644 WebContent/insertBookform.jsp
+ create mode 100644 WebContent/login.jsp
+ create mode 100644 WebContent/remove.jsp
+ create mode 100644 WebContent/removeform.jsp
+ create mode 100644 WebContent/review.jsp
+ create mode 100644 WebContent/search.jsp
+ create mode 100644 WebContent/searchform.jsp
+ create mode 100644 WebContent/usermenu.jsp
+ create mode 100644 build/classes/com/BookBean.class
+ create mode 100644 build/classes/com/BookDao.class
+ create mode 100644 build/classes/com/Connect.class
+ create mode 100644 build/classes/com/LoginBean.class
+ create mode 100644 build/classes/com/LoginDao.class
+ create mode 100644 build/classes/dto/Book.class
+ create mode 100644 build/classes/dto/Login.class
+ create mode 100644 src/com/BookBean.java
+ create mode 100644 src/com/BookDao.java
+ create mode 100644 src/com/Connect.java
+ create mode 100644 src/com/LoginBean.java
+ create mode 100644 src/com/LoginDao.java
+ create mode 100644 src/dto/Book.java
+ create mode 100644 src/dto/Login.java
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git status
+On branch master
+nothing to commit, working directory clean
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git config --global user.name "hemantbh"
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git config --global user.email  "hemantbh@cybage.com"
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git push origin
+HEAD     master
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git push origin
+HEAD     master
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$ git push origin master
+Username for 'https://github.com': hemantbh
+Password for 'https://hemantbh@github.com':
+Counting objects: 53, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (48/48), done.
+Writing objects: 100% (53/53), 707.97 KiB | 0 bytes/s, done.
+Total 53 (delta 12), reused 0 (delta 0)
+To https://github.com/hemantbh/Cybooknet.git
+ * [new branch]      master -> master
+
+subhashinia@CT2-TRNG7-17 /d/CybNetJsp (master)
+$
